@@ -76,14 +76,6 @@ h1, h2, h3, h4, h5, h6 {
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-  color: #1875f0;
-}
-
 h1, h2, h3, h4, h5, p {
   margin: 0;
   font-size: inherit;
@@ -892,6 +884,9 @@ a.nav-dropdawn__dropdawn-item:hover {
   font-weight: 500;
   text-align: center;
   margin-bottom: 25px;
+}
+.product-cards__info:hover {
+  color: #1875f0;
 }
 .product-cards__text {
   line-height: 22.7px;
