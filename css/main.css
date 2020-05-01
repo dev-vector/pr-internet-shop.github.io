@@ -843,6 +843,11 @@ a.nav-dropdawn__dropdawn-item:hover {
 }
 .product-cards__item {
   margin-bottom: 30px;
+  transition: box-shadow 0.2s ease-in, transform 0.2s ease-in;
+}
+.product-cards__item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 3px 25px rgba(0, 0, 0, 0.329);
 }
 .product-cards__wrapper {
   margin: 20px 20px 35px 20px;
