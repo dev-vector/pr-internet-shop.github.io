@@ -971,6 +971,9 @@ a.nav-dropdawn__dropdawn-item:hover {
   width: auto;
   padding-right: 20px;
 }
+.footer__nav-link:hover {
+  color: #1875f0;
+}
 .footer__nav-link:hover svg {
   fill: #1875f0;
 }
